@@ -1,7 +1,7 @@
 import { test,expect } from "@playwright/test";
 import { Loginpage } from "../pages/Loginpage";
 import { Products } from "../pages/Products";
-import { checkoutpage, checkoutpage } from "../pages/checkoutpage";
+import { checkoutpage } from "../pages/checkoutpage";
 
 
 test("user should be able to login",async ({page})=>{
