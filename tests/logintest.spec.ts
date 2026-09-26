@@ -20,7 +20,7 @@ test("user should be able to login",async ({page})=>{
     expect(islogo).toBeTruthy();
     await productpage.validateproductdetails();
     await productpage.addtocartbyname("Sauce Labs Bolt T-Shirt");
-    //await productpage.addtoc
+    
 
 
 })
